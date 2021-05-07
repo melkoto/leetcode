@@ -1,3 +1,4 @@
+// Решение https://www.youtube.com/watch?v=GsUmfQHbn-E
 /**
  * @param {string} digits
  * @return {string[]}
