@@ -1,4 +1,4 @@
-// Решение https://www.youtube.com/watch?v=QrvnqpDexEY
+// Решение (Solution) https://www.youtube.com/watch?v=QrvnqpDexEY
 
 function divide(dividend: number, divisor: number): number {
     const MAX_INT = 2147483647;
