@@ -1,3 +1,4 @@
+// Решение https://www.youtube.com/watch?v=8RPQp_57ujk
 /**
  Do not return anything, modify nums1 in-place instead.
  */
