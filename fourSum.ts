@@ -1,3 +1,4 @@
+// Решение https://www.youtube.com/watch?v=1K1qAkMStbM
 function fourSum(nums: number[], target: number): number[][] {
   // [-2, -1, 0, 0, 0, 1, 2]
   if (nums.length < 4) return [];
