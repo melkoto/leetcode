@@ -1,4 +1,4 @@
-// @ts-ignore
+// Решение https://www.youtube.com/watch?v=rDISkApbqeM
 class ListNode {
   val: number;
   next: ListNode | null;
