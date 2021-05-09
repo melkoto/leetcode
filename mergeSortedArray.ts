@@ -1,7 +1,9 @@
 // Решение https://www.youtube.com/watch?v=8RPQp_57ujk
+
 /**
  Do not return anything, modify nums1 in-place instead.
  */
+// @ts-ignore
 function merge(nums1: number[], m: number, nums2: number[], n: number): void {
   let left = m - 1;
   let right = n - 1;
