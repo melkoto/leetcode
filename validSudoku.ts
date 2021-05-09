@@ -1,3 +1,5 @@
+// Решение https://youtu.be/MdGkzM3ERyM
+
 function isValidSudoku(board: string[][]): boolean {
   let temp: string[] = [];
 
