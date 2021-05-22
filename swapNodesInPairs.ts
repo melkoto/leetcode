@@ -1,14 +1,6 @@
 // Решение https://www.youtube.com/watch?v=rDISkApbqeM
 
-// @ts-ignore
-class ListNode {
-  val: number;
-  next: ListNode | null;
-  constructor(val?: number, next?: ListNode | null) {
-    this.val = val === undefined ? 0 : val;
-    this.next = next === undefined ? null : next;
-  }
-}
+import { ListNode } from './listNode';
 
 function swapPairs(head: ListNode | null): ListNode | null {
   // let dummy = new ListNode(0);

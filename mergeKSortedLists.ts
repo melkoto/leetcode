@@ -1,14 +1,4 @@
 // Решение https://www.youtube.com/watch?v=O-8iKAz0R88
-// @ts-ignore
-class ListNode {
-  val: number;
-  next: ListNode | null;
-  constructor(val?: number, next?: ListNode | null) {
-    this.val = val === undefined ? 0 : val;
-    this.next = next === undefined ? null : next;
-  }
-}
-
 function mergeKLists(lists: Array<ListNode | null>): ListNode | null {
   if (lists.length === 1) return lists[0];
   if (lists.length === 0) return null;
