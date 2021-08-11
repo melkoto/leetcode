@@ -1,4 +1,6 @@
 // Решение https://www.youtube.com/watch?v=O-8iKAz0R88
+import { ListNode } from "./listNode";
+
 function mergeKLists(lists: Array<ListNode | null>): ListNode | null {
   if (lists.length === 1) return lists[0];
   if (lists.length === 0) return null;

@@ -1,4 +1,5 @@
 // Решение https://www.youtube.com/watch?v=LXp3TiwULPE&t=320s
+import { ListNode } from "./listNode";
 
 function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
   let dummy = new ListNode(0);
